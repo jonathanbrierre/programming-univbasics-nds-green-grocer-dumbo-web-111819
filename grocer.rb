@@ -88,5 +88,17 @@ def checkout(cart, coupons)
   cart
   apply_clearance(cart)
   cart
-  
+  i = 0 
+  total= 0 
+  grand_total = 0 
+  while i < cart.count do
+    total += cart[i][:price] * cart[i][:count]
+  end
+  if total  > 100 
+    grand_total = total *0.9
+    grand_total.round(2)
+  else
+    grand_total = total
+  end
+  grand_total
 end
