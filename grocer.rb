@@ -101,5 +101,5 @@ def checkout(cart, coupons)
   else
     discount = 0 
   end
-  grand_total
+  
 end
