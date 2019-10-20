@@ -87,7 +87,7 @@ def checkout(cart, coupons)
   apply_coupons(cart,coupons)
   
   apply_clearance(cart)
-  cart
+  
   i = 0 
   total= 0 
   grand_total = 0 
