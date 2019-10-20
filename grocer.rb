@@ -104,5 +104,5 @@ def checkout(cart, coupons)
     grand_total = total
   end
   grand_total
-  
+  binding.pry
 end
