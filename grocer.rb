@@ -102,5 +102,5 @@ def checkout(cart, coupons)
     grand_total = total
   end
   grand_total
-  checkout_discount
+  
 end
