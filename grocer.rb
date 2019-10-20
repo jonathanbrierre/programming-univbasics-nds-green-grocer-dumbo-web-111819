@@ -84,11 +84,8 @@ def checkout(cart, coupons)
   # some irritated customers
   
   consolidate_cart(cart)
-  w = 0
-  while w < coupons.count do
-    apply_coupons(cart,coupons)
-    w+=1
-  end
+  
+  apply_coupons(cart,coupons)
   
   apply_clearance(cart)
   
